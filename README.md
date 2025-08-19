@@ -4,9 +4,6 @@ This project implements an **XGBoost regression pipeline** to predict Airbnb lis
 
 ### Note: 
 A jupyter file containing the project in its entirety was included to better see the underlying logic.
-```
-airbnb_revenue_prediction_XGB.ipynb
-```
 
 ## Project Overview
 
@@ -45,6 +42,11 @@ The target variable is **`revenue`**.
 ```bash
 git clone https://github.com/jolbinsk1/airbnb_revenue_prediction.git
 cd airbnb-revenue-prediction
+```
+
+* To view the jupyter notebook file:
+```
+airbnb_revenue_prediction_XGB.ipynb
 ```
 
 2. Create a virtual environment (optional but recommended):
