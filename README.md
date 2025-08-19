@@ -37,7 +37,7 @@ The target variable is **`revenue`**.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/airbnb-revenue-prediction.git
+git clone https://github.com/jolbinsk1/airbnb_revenue_prediction.git
 cd airbnb-revenue-prediction
 ```
 
@@ -60,18 +60,18 @@ pip install -r requirements.txt
 Run the pipeline from the command line:
 
 ```bash
-python pipeline.py
+python xgb_pipeline.py
 ```
 
 * The script trains the model, evaluates it on training and validation data, analyzes feature importance, and plots learning curves.
-* Optional: uncomment the grid search section in `pipeline.py` for hyperparameter tuning.
+* Optional: uncomment the grid search section in `xgb_pipeline.py` for hyperparameter tuning.
 
 ## Project Structure
 
 ```
 airbnb-revenue-prediction/
 │
-├── pipeline.py           # Main pipeline script
+├── xgb_pipeline.py       # Main pipeline script
 ├── analysis.py           # Feature importance & learning curve functions
 ├── train.json            # Training dataset
 ├── test.json             # Test dataset
@@ -84,9 +84,3 @@ airbnb-revenue-prediction/
 * MAE is reported on both **training** and **validation** sets.
 * Feature importance plots identify the most predictive features.
 * Learning curves help assess overfitting or underfitting.
-
-## Future Work
-
-* Explore additional features from listings or host data.
-* Experiment with **other regression models** (LightGBM, CatBoost).
-* Deploy as a REST API for real-time revenue predictions.
