@@ -44,10 +44,10 @@ git clone https://github.com/jolbinsk1/airbnb_revenue_prediction.git
 cd airbnb-revenue-prediction
 ```
 
-      ** To view the jupyter notebook file:
-      ```
-      jupyter notebook airbnb_revenue_prediction_XGB.ipynb
-      ```
+** To view the jupyter notebook file:
+```
+jupyter notebook airbnb_revenue_prediction_XGB.ipynb
+```
 
 2. Create a virtual environment (optional but recommended):
 
