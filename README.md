@@ -2,6 +2,12 @@
 
 This project implements an **XGBoost regression pipeline** to predict Airbnb listing revenue. It includes preprocessing, model training, evaluation, feature importance analysis, and learning curve visualization.
 
+### Note: 
+A jupyter file containing the project in its entirety was included to better see the underlying logic.
+```
+airbnb_revenue_prediction_XGB.ipynb
+```
+
 ## Project Overview
 
 The pipeline performs the following steps:
