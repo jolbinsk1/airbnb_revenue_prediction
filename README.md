@@ -74,6 +74,18 @@ python xgb_pipeline.py
 * The script trains the model, evaluates it on training and validation data, analyzes feature importance, and plots learning curves.
 * Optional: uncomment the grid search section in `xgb_pipeline.py` for hyperparameter tuning.
 
+### Alternative Models
+
+In addition to the XGBoost pipeline, this project also includes an implementation using scikit-learn's 
+**HistGradientBoostingRegressor**. This model is optimized for speed and efficiency, and serves as a strong baseline 
+for comparison.
+
+You can run the alternative approach with:
+
+```bash
+python hist_pipeline.py
+```
+
 ## Project Structure
 
 ```
@@ -84,7 +96,9 @@ airbnb-revenue-prediction/
 ├── train.json            # Training dataset
 ├── test.json             # Test dataset
 ├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
+├── README.md             # Project documentation
+│
+└── hgb_pipeline.py       # Alternative model pipeline script (self-contained)
 ```
 
 ## Results
